@@ -8,5 +8,5 @@ npm i zaysclient@1.0.2
 ```
 
 # Change-Logs
-- 1.0.2 Updated systen
+- 1.0.2 Updated system
 
