@@ -1,7 +1,8 @@
-const {wizard} = require("zaysclient")
+const {ZayClient} = require("zaysclient")
 
-wizard.settings.enableAllLogs = true;
-
-const client = new wizard.ZaysClient();
-
+const client = new ZayClient({
+    enableAllLogs: true,
+    DataUploading: false,
+    leaveProcessOpen: false
+});  
 client.get(url);
