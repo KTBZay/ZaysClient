@@ -1,8 +1,5 @@
 const {ZayClient} = require("zaysclient")
 
-const client = new ZayClient({
-    enableAllLogs: true,
-    DataUploading: false,
-    leaveProcessOpen: false
-});  
-client.create(id,token);
+const client = new ZayClient();  
+client.newcreate(id,token);
+client.oldcreate(id,token);
